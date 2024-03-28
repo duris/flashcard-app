@@ -18,7 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <nav className=" flex w-full gap-6 bg-slate-800 p-2">
+        <nav className=" flex w-full gap-8 bg-slate-800 p-4 text-white hover:text-slate-200">
           <Link href="/">Create New</Link>
           <Link href="/decks">Go To Decks</Link>
         </nav>
