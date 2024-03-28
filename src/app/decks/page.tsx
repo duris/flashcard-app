@@ -1,6 +1,7 @@
 import React from "react";
 import { getAllDecks } from "../actions/actions";
 import Link from "next/link";
+export const dynamic = "force-dynamic";
 
 const Decks = async () => {
   const decks = await getAllDecks();
