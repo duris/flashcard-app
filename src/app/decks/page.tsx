@@ -5,7 +5,7 @@ import Link from "next/link";
 const Decks = async () => {
   const decks = await getAllDecks();
   return (
-    <div className="flex text-black gap-2">
+    <div className="flex text-black gap-2 flex-wrap">
       {decks
         ? decks.map((deck) => (
             <Link
